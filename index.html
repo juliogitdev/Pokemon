@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio src="./sounds/whos-that-pokemon_.mp3" id="sound_inital"></audio>
+    <div class="container">
+        <div class="img">
+            <p class="name" id="name">Name</p>
+            <img src="" alt="" id="img">
+            
+        </div>
+        <div class="input">
+            <label for="search">Digite o nome do pokemon</label>
+            <input type="text" name="search" id="search" placeholder="Digite o nome do pokemon">
+        </div>
+        
+        <div class="rodape">
+            <button id="anterior" onclick="mudarPokemon(0)">Anterior</button>
+            <small class="id" id="id">Id</small>
+            <button id="Proximo" onclick="mudarPokemon(1)">Proximo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
