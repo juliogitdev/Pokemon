@@ -42,5 +42,5 @@ window.addEventListener('load', ()=>{
 })
 
 inputPokemon.addEventListener('input', (value)=>{
-    setPokemon(inputPokemon.value)
+    setPokemon(inputPokemon.value.toLowerCase())
 })
