@@ -37,6 +37,7 @@ function mudarPokemon(direction){
     setPokemon(Number(id.innerHTML) + 1)
 }
 window.addEventListener('load', ()=>{
+    initial_audio.currentTime = 0
     initial_audio.play()
     setPokemon(1)
 })
